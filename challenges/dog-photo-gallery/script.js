@@ -14,8 +14,8 @@ let addBtn = document.getElementById("btn1");
 addBtn.innerText = "view".toUpperCase();
 addBtn.style.color = "black";
 addBtn.style.backgroundColor = "green";
-addBtn.style.margin = '1rem 0 1rem 1rem';
-addBtn.style.padding = '1rem';
+addBtn.style.margin = "1rem 0 1rem 1rem";
+addBtn.style.padding = "1rem";
 
 let unorderedlist = document.getElementById("unordered-list");
 
@@ -38,5 +38,3 @@ addBtn.addEventListener("click", () => {
       console.log(error);
     });
 });
-
-saveBtn.addEventListener("click", () => {});
