@@ -17,7 +17,7 @@ Open index.html in your browser. Every time you refresh the page,
 a different greeting should be displayed in the box.
 */
 const url = "https://codeyourfuture.herokuapp.com/api/greetings";
-const paraEL = document.getElementById('greeting-text')
+const paraEL = document.getElementById("greeting-text");
 
 fetch(url)
   .then(function (response) {
